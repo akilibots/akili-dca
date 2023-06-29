@@ -1,0 +1,12 @@
+{
+  "main": {
+    "name": "⌚",
+    "market": "BTC-USD"
+  },
+
+  "dca": {
+    "side": "buy",
+    "size": 0.001,
+    "freq": 5 //1800
+  }
+}

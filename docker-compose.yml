@@ -1,0 +1,10 @@
+services:
+  dev:
+    build: .
+    volumes:
+      - .:/app
+    command: python3 -u /app/dev.py
+
+  app:
+    build: .
+    command: python3 -u /app/run.py
