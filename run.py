@@ -42,13 +42,6 @@ def log(msg):
         )
     threading.Thread(target=_log, args=[msg]).start()
 
-
-def place_order(side, size, price):
-    global xchange
-    global account
-    
-    return order
-
 def main():
     global orders
     global order_id
