@@ -1,4 +1,0 @@
-services:
-  app:
-    build: .
-    command: python3 -u /app/app.py

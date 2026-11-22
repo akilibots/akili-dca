@@ -253,3 +253,9 @@ $RECYCLE.BIN/
 /dev
 /data/state.json
 /data/tokens.json
+/data/*.tmp
+/data/*.lock
+/data/exchange.json
+/data/state.json
+/data/tokens.json
+.env
